@@ -8,7 +8,7 @@
   <h1>Cinevo</h1>
   
   <p>
-    <strong>Modern Mobil Film Keşif ve Takip Uygulaması</strong>
+    <strong>Modern Mobil Film Keşif Uygulaması</strong>
   </p>
 
   <p>
@@ -31,9 +31,9 @@
 
 ## Proje Hakkında
 
-Cinevo, film tutkunlarının yeni yapımları keşfetmesini, detaylı bilgilere ulaşmasını ve favori listelerini oluşturmasını sağlayan modern bir Android uygulamasıdır. 
+Cinevo, film tutkunlarının yeni yapımları keşfetmesini, detaylı bilgilere ulaşmasını ve favori listelerini oluşturmasını sağlayan modern bir Android uygulamasıdır.
 
-Jetpack Compose ile tamamen deklaratif bir UI üzerine inşa edilmiş olup, Clean Architecture prensiplerine sadık kalınarak geliştirilmiştir. Veri akışı için TMDb API kullanılırken, kullanıcı özelleştirmeleri ve favori listeleri Firebase Firestore üzerinde güvenli bir şekilde saklanır.
+Jetpack Compose ile tamamen deklaratif bir arayüz (UI) üzerine inşa edilmiş olup, Clean Architecture prensiplerine sadık kalınarak geliştirilmiştir. Veri akışı için TMDb API kullanılırken, kullanıcı özelleştirmeleri ve favori listeleri Firebase Firestore üzerinde güvenli bir şekilde saklanır.
 
 ---
 
@@ -43,7 +43,7 @@ Jetpack Compose ile tamamen deklaratif bir UI üzerine inşa edilmiş olup, Clea
 * **Akıllı Arama:** Film adı ile hızlı ve dinamik arama yapın.
 * **Detaylı Görünüm:** Film afişi, özet, IMDb puanı, yayın tarihi ve süre bilgileri.
 * **Fragman İzleme:** YouTube entegrasyonu (Intents) ile fragmanları doğrudan izleyin.
-* **Favorilerim:** Beğendiğiniz filmleri Firebase Firestore altyapısı ile buluta kaydedin ve her yerden erişin.
+* **Favoriler:** Beğendiğiniz filmleri Firebase Firestore altyapısı ile buluta kaydedin ve her yerden erişin.
 
 ---
 
@@ -54,12 +54,14 @@ Jetpack Compose ile tamamen deklaratif bir UI üzerine inşa edilmiş olup, Clea
     <tr>
       <td align="center"><b>Ana Sayfa</b></td>
       <td align="center"><b>Detay Ekranı</b></td>
-      <td align="center"><b>Arama & Favoriler</b></td>
+      <td align="center"><b>Arama</b></td>
+      <td align="center"><b>Favoriler</b></td>
     </tr>
     <tr>
-      <td><img src="URL_BURAYA_GELECEK" width="250" /></td>
-      <td><img src="URL_BURAYA_GELECEK" width="250" /></td>
-      <td><img src="URL_BURAYA_GELECEK" width="250" /></td>
+      <td><img src="./screenshots/home.png" width="200" /></td>
+      <td><img src="./screenshots/details.png" width="200" /></td>
+      <td><img src="./screenshots/search.png" width="200" /></td>
+      <td><img src="./screenshots/favorites.png" width="200" /></td>
     </tr>
   </table>
 </div>
@@ -75,7 +77,7 @@ Bu proje, modern Android geliştirme ekosisteminin en güncel araçları kullan�
 * **Mimari:** MVVM (Model-View-ViewModel) & Clean Architecture
 * **Dependency Injection:** [Hilt](https://dagger.dev/hilt/)
 * **Ağ İşlemleri (Network):** [Retrofit](https://square.github.io/retrofit/) & [Gson](https://github.com/google/gson)
-* **Asenkron İşlemler:** [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) & Flow
+* **Eşzamanlılık (Concurrency):** [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) & Flow
 * **Görsel Yükleme:** [Coil](https://coil-kt.github.io/coil/)
 * **Backend & Veritabanı:** * Firebase Authentication
     * Firebase Firestore
@@ -83,27 +85,27 @@ Bu proje, modern Android geliştirme ekosisteminin en güncel araçları kullan�
 
 ---
 
-## Kurulum ve Çalıştırma
+## Kurulum
 
 Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 
 1.  **Repoyu Klonlayın:**
     ```bash
-    git clone [https://github.com/KULLANICI_ADIN/Cinevo.git](https://github.com/KULLANICI_ADIN/Cinevo.git)
+    git clone [https://github.com/ArmaganOzkan/cinevo.git](https://github.com/ArmaganOzkan/cinevo.git)
     ```
 
-2.  **API Anahtarı (API Key) Ayarlaması:**
+2.  **API Anahtarı (Key) Yapılandırması:**
     * [TMDb](https://www.themoviedb.org/) üzerinden ücretsiz bir API anahtarı alın.
-    * Projenin `local.properties` dosyasına şu satırı ekleyin:
+    * `local.properties` dosyasına şu satırı ekleyin:
         ```properties
-        API_KEY="Sizin_Api_Anahtarınız"
+        TMDB_API_KEY="Your_Api_Key"
         ```
 
 3.  **Firebase Kurulumu:**
     * Firebase konsolunda yeni bir proje oluşturun.
     * `google-services.json` dosyasını indirip `app/` klasörünün içine yerleştirin.
 
-4.  **Projeyi Derleyin:**
+4.  **Derleme (Build):**
     * Android Studio'da projeyi açın ve "Sync Project with Gradle Files" butonuna tıklayın.
     * Emülatör veya fiziksel cihazda çalıştırın.
 
