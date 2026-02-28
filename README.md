@@ -55,12 +55,14 @@ Built entirely on a declarative UI with Jetpack Compose, the project adheres str
     <tr>
       <td align="center"><b>Home Screen</b></td>
       <td align="center"><b>Detail Screen</b></td>
-      <td align="center"><b>Search & Favorites</b></td>
+      <td align="center"><b>Search</b></td>
+      <td align="center"><b>Favorites</b></td>
     </tr>
     <tr>
-      <td><img src="URL_GOES_HERE" width="250" /></td>
-      <td><img src="URL_GOES_HERE" width="250" /></td>
-      <td><img src="URL_GOES_HERE" width="250" /></td>
+      <td><img src="./screenshots/home.png" width="200" /></td>
+      <td><img src="./screenshots/details.png" width="200" /></td>
+      <td><img src="./screenshots/search.png" width="200" /></td>
+      <td><img src="./screenshots/favorites.png" width="200" /></td>
     </tr>
   </table>
 </div>
@@ -90,14 +92,14 @@ Follow these steps to run the project on your local machine:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/Cinevo.git](https://github.com/YOUR_USERNAME/Cinevo.git)
+    git clone [https://github.com/ArmaganOzkan/cinevo.git](https://github.com/ArmaganOzkan/cinevo.git)
     ```
 
 2.  **API Key Configuration:**
     * Obtain a free API key from [TMDb](https://www.themoviedb.org/).
     * Add the following line to the `local.properties` file:
         ```properties
-        API_KEY="Your_Api_Key"
+        TMDB_API_KEY="Your_Api_Key"
         ```
 
 3.  **Firebase Setup:**
