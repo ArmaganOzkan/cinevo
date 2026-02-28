@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cinevo</string>
+    <string name="greeting">Hoşgeldiniz</string>
+    <string name="mail">E-posta</string>
+    <string name="password">Şifre</string>
+    <string name="rememberme">Beni hatırla</string>
+    <string name="login">Giriş Yap</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="registerpageslogin">Zaten hesabınız var mı? Giriş Yap.</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="wrongloginmessage">Kullanıcı adı veya şifre hatalı</string>
+    <string name="home">Ana Sayfa</string>
+    <string name="search">Ara</string>
+    <string name="profile">Profil</string>
+    <string name="popularmovies">Popüler Filmler</string>
+    <string name="actionmovies">Aksiyon Filmleri</string>
+    <string name="horrormovies">Korku Filmleri</string>
+    <string name="comedymovies">Komedi Filmleri</string>
+    <string name="pleasefillallblanks">Lütfen tüm boş alanları doldurunuz</string>
+    <string name="passwordmustbe">Şifre 6 karakterden uzun olmalıdır</string>
+    <string name="entervalidmail">Lütfen geçerli bir e-posta giriniz</string>
+    <string name="rating">Puan:</string>
+    <string name="overview">Genel Bakış</string>
+    <string name="runtime">Süre:</string>
+    <string name="minute">dk</string>
+    <string name="searchmovies">Film Ara</string>
+    <string name="genre">Tür: </string>
+    <string name="settings">Ayarlar</string>
+    <string name="darktheme">Koyu Tema</string>
+    <string name="language">Dil</string>
+    <string name="favorites">Favorilerim</string>
+    <string name="support">Destek</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="contact_description">
+    Herhangi bir şikayet, uygulama hatası&#10;veya öneri için aşağıdaki mail adresine&#10;ulaşabilirsiniz:
+</string>
+    <string name="contact_title">Bize Ulaşın</string>
+    <string name="empty_state_message">Burası boş gözüküyor...</string>
+    <string name="watchtrailer">Fragmanı İzle</string>
+    <string name="filter">Filtreleri Uygula</string>
+    <string name="clear">Temizle</string>
+    <string name="leaveareview">İnceleme Yaz</string>
+    <string name="showreview">İncelemeleri Göster</string>
+    <string name="hidereview">İncelemeleri Gizle</string>
+    <string name="downloadimage">Görseli İndir</string>
+    <string name="askdownload">Bu görseli indirmek istiyor musunuz?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="send">Gönder</string>
+    <string name="seeallreviews">Tüm Yorumları Gör</string>
+    <string name="reviews">Yorumlar</string>
+    <string name="myreviews">Yorumlarım</string>
+    <string name="removedfromfav">favorilerden kaldırıldı.</string>
+    <string name="reviewremoved">Yorumunuz kaldırıldı.</string>
+    <string name="undo">Geri al</string>
+    <string name="checknetworkconnection">Lütfen internet bağlantınızı kontrol ediniz</string>
+    <string name="autorefreshinfo">İnternet bağlantısı sağlandığında sayfa otomatik olarak yenilenecektir.</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

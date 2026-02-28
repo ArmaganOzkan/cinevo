@@ -1,0 +1,41 @@
+# ===============================
+# Android / Kotlin .gitignore
+# ===============================
+
+# Local config (API keys vs)
+local.properties
+
+# Keystore files (ÇOK ÖNEMLİ)
+*.jks
+*.keystore
+
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Android Studio
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# APK / AAB
+*.apk
+*.ap_
+*.aab
+
+# Logs
+*.log
+
+# Native build
+.externalNativeBuild
+.cxx
+
+# Generated
+captures/
+
+# Kotlin
+*.kotlin_module
